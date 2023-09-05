@@ -1,0 +1,10 @@
+jenkins:
+  systemMessage: "Welcome to Team Beta"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  clouds:
+  - "operationsCenterAgentProvisioningService"
+unclassified:
+  quietStartConfiguration:
+    activated: false
+  headerLabel:
+    text: "TEAM BETA"
